@@ -5,7 +5,6 @@ on:
 
 jobs:
   release:
-    name: Publish release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -18,11 +17,10 @@ jobs:
         uses: cocogitto/cocogitto-action@main
         with:
           command: changelog
-          args: --at ${{ github.ref_name }}
 
       - name: Upload github release
         uses: softprops/action-gh-release@v2
         with:
           body: ${{ steps.release.outputs.stdout }}
-          tag_name: ${{ github.ref_name }}
+          tag_name: ${{ steps.release.outputs.version }}
 
