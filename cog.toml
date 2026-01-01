@@ -1,15 +1,15 @@
 #project = "my_project"
 #branch = "main"
+tag_prefix = "v"
 ignore_merge_commits = true
+branch_whitelist = [ "main" ]
 
 #[bump_profiles]
 # Optional: Update version strings in files before committing
-# pre_bump_hooks = ["sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml"]
+# pre_bump_hooks = [ "sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml" ]
 post_bump_hooks = [
-    # This pushes the version commit and the new tag to GitHub
-    "git push origin main --tags",
-    # This creates the actual GitHub Release UI page using the GitHub CLI (pre-installed on runners)
-    "gh release create {{version}} --title \"Release {{version}}\" --notes-file CHANGELOG.md"
+    "git push",
+    "git push origin v{{version}}",
 ]
 
 [changelog]
