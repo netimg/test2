@@ -16,6 +16,7 @@ jobs:
         id: bump
         uses: cocogitto/cocogitto-action@main
         with:
+          release: true
           command: bump
           args: --auto
 
