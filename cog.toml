@@ -1,0 +1,21 @@
+#project = "my_project"
+branch = "main"
+ignore_merge_commits = true
+
+[changelog]
+path = "CHANGELOG.md"
+template = "remote"
+remote = "github.com"
+repository = "netimg/test2"
+
+[bump_profiles]
+
+[pre_bump_hooks]
+# Optional: Update version strings in files before committing
+# "sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml"
+
+[post_bump_hooks]
+# This pushes the version commit and the new tag to GitHub
+"git push origin main --tags",
+# This creates the actual GitHub Release UI page using the GitHub CLI (pre-installed on runners)
+"gh release create {{version}} --title \"Release {{version}}\" --notes-file CHANGELOG.md"
