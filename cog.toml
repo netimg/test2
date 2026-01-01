@@ -8,9 +8,9 @@ template = "remote"
 remote = "github.com"
 repository = "netimg/test2"
 
+[bump_profiles]
 # Optional: Update version strings in files before committing
 # pre_bump_hooks = ["sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml"]
-
 post_bump_hooks = [
     # This pushes the version commit and the new tag to GitHub
     "git push origin main --tags",
