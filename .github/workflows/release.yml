@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -29,9 +29,9 @@ jobs:
           command: changelog
           args: --at ${{ steps.bump.outputs.version }}
 
-      - name: Upload Release to GitHub
-        uses: softprops/action-gh-release@v2
-        with:
-          body: ${{ steps.release.outputs.stdout }}
-          tag_name: ${{ steps.bump.outputs.version }}
+#      - name: Upload Release to GitHub
+#        uses: softprops/action-gh-release@v2
+#        with:
+#          body: ${{ steps.changelog.outputs.stdout }}
+#          tag_name: ${{ steps.bump.outputs.version }}
 
