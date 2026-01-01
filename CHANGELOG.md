@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.0](https://github.com/netimg/test2/compare/4b1dc793e32c562cea2b0e12bad11ec2b1a5f22d..v0.5.0) - 2026-01-01
+#### Features
+- add support for floating major tag - ([da1cde3](https://github.com/netimg/test2/commit/da1cde3d9653a0c245e8c0f5ac538bd42ad1c0bb)) - albert-a
+
+- - -
+
 ## [v0.4.0](https://github.com/netimg/test2/compare/48662bc722b9ec68b50d3ccc108240bac37cdbdc..v0.4.0) - 2026-01-01
 #### Features
 - add testfile - ([553937c](https://github.com/netimg/test2/commit/553937c3836fde45416e2185dd2300f6bdbe0e4f)) - albert-a
