@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.0](https://github.com/netimg/test2/compare/e78d1ef7044bb6509074476d7c7996955dbbd475..v0.3.0) - 2026-01-01
+#### Features
+- try disabling chores omission in cog.toml - ([e78d1ef](https://github.com/netimg/test2/commit/e78d1ef7044bb6509074476d7c7996955dbbd475)) - albert-a
+
+- - -
+
 ## [v0.2.0](https://github.com/netimg/test2/compare/21ae5de1bcde9e107fbd8f9eafc5b6638a13750d..v0.2.0) - 2026-01-01
 #### Features
 - ommit chores from changelog in cog.toml - ([76e7443](https://github.com/netimg/test2/commit/76e74430e91799b6a0f60e99515e37dc5b06bb9d)) - albert-a
