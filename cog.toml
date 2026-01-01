@@ -1,12 +1,10 @@
-#project = "my_project"
-#branch = "main"
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
 
-#[bump_profiles]
 # Optional: Update version strings in files before committing
 # pre_bump_hooks = [ "sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml" ]
+
 post_bump_hooks = [
     "git push",
     "git push origin v{{version}}",
