@@ -8,19 +8,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - name: SemVer release
-        id: release
+      - name: Semantic Versioning Release
+        id: bump
+        uses: cocogitto/cocogitto-action@main
+        with:
+          release: true
+
+      - name: Generate Changelog for this release
+        id: changelog
         uses: cocogitto/cocogitto-action@main
         with:
           command: changelog
+          args: --at ${{ steps.bump.outputs.version }}
 
-      - name: Upload github release
+      - name: Upload release to 
         uses: softprops/action-gh-release@v2
         with:
           body: ${{ steps.release.outputs.stdout }}
-          tag_name: ${{ steps.release.outputs.version }}
-
+          tag_name: ${{ steps.bump.outputs.version }}
+          generate_release_notes: false
