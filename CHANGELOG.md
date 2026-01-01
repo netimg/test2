@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.1](https://github.com/netimg/test2/compare/b3af1c1e130eea24780739fc377e8ce9d9f73ead..v0.3.1) - 2026-01-01
+#### Bug Fixes
+- removed github upload step from cog action - ([b3af1c1](https://github.com/netimg/test2/commit/b3af1c1e130eea24780739fc377e8ce9d9f73ead)) - albert-a
+
+- - -
+
 ## [v0.3.0](https://github.com/netimg/test2/compare/e78d1ef7044bb6509074476d7c7996955dbbd475..v0.3.0) - 2026-01-01
 #### Features
 - try disabling chores omission in cog.toml - ([e78d1ef](https://github.com/netimg/test2/commit/e78d1ef7044bb6509074476d7c7996955dbbd475)) - albert-a
