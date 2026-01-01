@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.2.0](https://github.com/netimg/test2/compare/21ae5de1bcde9e107fbd8f9eafc5b6638a13750d..v0.2.0) - 2026-01-01
+#### Features
+- ommit chores from changelog in cog.toml - ([76e7443](https://github.com/netimg/test2/commit/76e74430e91799b6a0f60e99515e37dc5b06bb9d)) - albert-a
+
+- - -
+
 ## [v0.1.0](https://github.com/netimg/test2/compare/2a1e3d8b6d1249018e75dd826c654ede4562a133..v0.1.0) - 2026-01-01
 #### Features
 - added cocogitto action - ([b53d4c4](https://github.com/netimg/test2/commit/b53d4c4f4de0ef417135e95b803a8f66b0a3a7ab)) - root
