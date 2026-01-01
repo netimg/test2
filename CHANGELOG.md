@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.3.2](https://github.com/netimg/test2/compare/776e75a85db472ba0caa0f40b53f219c96957cc7..v0.3.2) - 2026-01-01
+#### Bug Fixes
+- cleaned export list - ([776e75a](https://github.com/netimg/test2/commit/776e75a85db472ba0caa0f40b53f219c96957cc7)) - albert-a
+
+- - -
+
 ## [v0.3.1](https://github.com/netimg/test2/compare/b3af1c1e130eea24780739fc377e8ce9d9f73ead..v0.3.1) - 2026-01-01
 #### Bug Fixes
 - removed github upload step from cog action - ([b3af1c1](https://github.com/netimg/test2/commit/b3af1c1e130eea24780739fc377e8ce9d9f73ead)) - albert-a
