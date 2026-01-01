@@ -1,14 +1,8 @@
 #project = "my_project"
-branch = "main"
+#branch = "main"
 ignore_merge_commits = true
 
-[changelog]
-path = "CHANGELOG.md"
-template = "remote"
-remote = "github.com"
-repository = "netimg/test2"
-
-[bump_profiles]
+#[bump_profiles]
 # Optional: Update version strings in files before committing
 # pre_bump_hooks = ["sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml"]
 post_bump_hooks = [
@@ -17,3 +11,10 @@ post_bump_hooks = [
     # This creates the actual GitHub Release UI page using the GitHub CLI (pre-installed on runners)
     "gh release create {{version}} --title \"Release {{version}}\" --notes-file CHANGELOG.md"
 ]
+
+[changelog]
+path = "CHANGELOG.md"
+template = "remote"
+remote = "github.com"
+repository = "netimg/test2"
+
