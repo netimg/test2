@@ -17,3 +17,5 @@ remote = "github.com"
 owner = "netimg"
 repository = "test2"
 
+[commit_types]
+chore = { omit_from_changelog = true }
