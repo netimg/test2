@@ -19,8 +19,8 @@ jobs:
           token: ${{ secrets.PAT }}
           command: bump
           args: --auto
-          git-user: "albert-a"
-          git-user-email: "ackbeat@gmail.com"
+          git-user: 'albert-a'
+          git-user-email: 'ackbeat@gmail.com'
 
       - name: Generate Changelog for this release
         id: changelog
