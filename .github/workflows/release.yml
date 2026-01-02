@@ -20,7 +20,7 @@ jobs:
       - name: Determine bump type
         id: bump_logic
         run: |
-          [ -s .major ] && >.major && git commit -am "chore: forcing major release" && git push  && type=major || type=auto
+          rm .major 2>/dev/null && type=major || type=auto
           echo type=$type >> $GITHUB_OUTPUT
 
 #[ -s .major ] && >.major && git commit -am "chore: forcing major release" && type=major || type=auto
@@ -38,7 +38,7 @@ jobs:
         uses: cocogitto/cocogitto-action@main
         with:
           command: bump
-          args: --${{ steps.bump_logic.outputs.type }}
+          args: --${{ steps.bump_logic.outputs.type }} --skip-untracked
 
       - name: Generate Changelog for this release
         id: changelog
