@@ -31,18 +31,18 @@ jobs:
 
       - name: Generate Changelog for this release
         id: changelog
-        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
         uses: cocogitto/cocogitto-action@main
         with:
           command: changelog
           args: --at ${{ steps.bump.outputs.version }}
 
       - name: Upload Release to GitHub
-        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
         uses: softprops/action-gh-release@v2
         with:
           body: ${{ steps.changelog.outputs.stdout }}
           tag_name: ${{ steps.bump.outputs.version }}
+
+#        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
 
 #      - name: Update floating major tag
 #        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
