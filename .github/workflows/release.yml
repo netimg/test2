@@ -31,6 +31,7 @@ jobs:
 
       - name: Generate Changelog for this release
         id: changelog
+        if: "!contains(steps.bump.outputs.stdout, 'No conventional commits')"
         uses: cocogitto/cocogitto-action@main
         with:
           command: changelog
@@ -46,7 +47,7 @@ jobs:
 #        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
 
 #      - name: Update floating major tag
-#        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
+#        if: "!contains(steps.bump.outputs.stdout, 'No conventional commits')"
 #        run: |
 #          TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
 #          git tag -f "$TAG"
