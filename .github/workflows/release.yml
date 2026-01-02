@@ -40,6 +40,6 @@ jobs:
       - name: Update floating major tag
         if: steps.bump.outputs.version != ''
         run: |
-          TAG=${{ steps.bump.outputs.version }}
-          git tag -f "${TAG%%.*}"
-          git push -f origin "${TAG%%.*}"
+          TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
+          git tag -f "${TAG#v}"
+          git push -f origin "${TAG#v}}"
