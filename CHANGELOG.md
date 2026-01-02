@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.5.3](https://github.com/netimg/test2/compare/edf040ef8a7b1d887c98af0811ba3cc278d068a3..v0.5.3) - 2026-01-02
+#### Bug Fixes
+- dummy fix - ([527a110](https://github.com/netimg/test2/commit/527a11084f51550c95eb14236b58531272f4822c)) - albert-a
+
+- - -
+
 ## [v0.5.2](https://github.com/netimg/test2/compare/ab85892eb98725260c5698818ca3b96fe5753758..v0.5.2) - 2026-01-02
 #### Bug Fixes
 - unprefixed major tag closing bracket - ([ab85892](https://github.com/netimg/test2/commit/ab85892eb98725260c5698818ca3b96fe5753758)) - albert-a
