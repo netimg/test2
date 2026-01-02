@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.6.0](https://github.com/netimg/test2/compare/43948545e6f6c91500d29b3f864492b583d966f0..v0.6.0) - 2026-01-02
+#### Features
+- ![BREAKING](https://img.shields.io/badge/BREAKING-red) first stable release - ([4394854](https://github.com/netimg/test2/commit/43948545e6f6c91500d29b3f864492b583d966f0)) - albert-a
+
+- - -
+
 ## [v0.5.6](https://github.com/netimg/test2/compare/f003610ae7b24491449817a23fc1a96f0e0ef997..v0.5.6) - 2026-01-02
 #### Bug Fixes
 - dummy fix 3 - ([8220dc2](https://github.com/netimg/test2/commit/8220dc23bd671c02bff9428f048c6831efa9d477)) - albert-a
