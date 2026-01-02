@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.8.2](https://github.com/netimg/test2/compare/3b54242f97a8ce40ce2cdca14be7354515a871d1..v0.8.2) - 2026-01-02
+#### Bug Fixes
+- handling major flag - added git push - ([bba9ea7](https://github.com/netimg/test2/commit/bba9ea768f4c8faab8bd7311447e5a54f54e5d01)) - albert-a
+- handling major flag via file again - ([3b54242](https://github.com/netimg/test2/commit/3b54242f97a8ce40ce2cdca14be7354515a871d1)) - albert-a
+
+- - -
+
 ## [v0.8.1](https://github.com/netimg/test2/compare/a50a1c775a73006b54f6957c2e558bb822e47d49..v0.8.1) - 2026-01-02
 #### Bug Fixes
 - attempt 3 to bump to stable release 1.0.0 - ([a50a1c7](https://github.com/netimg/test2/commit/a50a1c775a73006b54f6957c2e558bb822e47d49)) - albert-a
