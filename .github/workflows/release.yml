@@ -24,22 +24,22 @@ jobs:
 
       - name: Generate Changelog for this release
         id: changelog
-        if: steps.bump.outputs.version != ''
+        if: contains(steps.bump.outputs.version, '.')
         uses: cocogitto/cocogitto-action@main
         with:
           command: changelog
           args: --at ${{ steps.bump.outputs.version }}
 
       - name: Upload Release to GitHub
-        if: steps.bump.outputs.version != ''
+        if: contains(steps.bump.outputs.version, '.')
         uses: softprops/action-gh-release@v2
         with:
           body: ${{ steps.changelog.outputs.stdout }}
           tag_name: ${{ steps.bump.outputs.version }}
 
       - name: Update floating major tag
-        if: steps.bump.outputs.version != ''
+        if: contains(steps.bump.outputs.version, '.')
         run: |
           TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
-          git tag -f "${TAG#v}"
-          git push -f origin "${TAG#v}"
+          git tag -f "$TAG"
+          git push -f origin "$TAG"
