@@ -19,7 +19,8 @@ jobs:
 
       - name: Determine bump type
         id: bump_logic
-        run: [ -f .major ] && rm .major && echo type=major || echo type=auto >> $GITHUB_OUTPUT
+        run: |
+          { rm .major 2>/dev/null && echo type=major || echo type=auto; } >> $GITHUB_OUTPUT
 
       - name: Semantic Versioning Release
         id: bump
