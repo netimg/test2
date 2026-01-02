@@ -42,4 +42,4 @@ jobs:
         run: |
           TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
           git tag -f "${TAG#v}"
-          git push -f origin "${TAG#v}}"
+          git push -f origin "${TAG#v}"
