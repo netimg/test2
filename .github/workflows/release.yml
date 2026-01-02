@@ -29,6 +29,7 @@ jobs:
           command: bump
           args: --${{ steps.bump_logic.outputs.type }} --skip-untracked
 
+
       - name: Generate Changelog for this release
         id: changelog
 #        if: contains(steps.bump.outputs.version, '.')
