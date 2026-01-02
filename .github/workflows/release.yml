@@ -17,16 +17,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Determine bump type
+        id: bump_logic
+        run: [ -f .major ] && rm .major && echo type=major || echo type=auto >> $GITHUB_OUTPUT
+
       - name: Semantic Versioning Release
         id: bump
         uses: cocogitto/cocogitto-action@main
-        run: cog bump --`[ -f .major ] && rm .major && echo major || echo auto`
-
-#          test -f .major && rm .major && bump=major || bump=auto
-#          cog bump --$bump
-#        with:
-#          command: bump
-#          args: --auto
+        with:
+          command: bump
+          args: --${{ steps.bump_logic.outputs.type }}
 
       - name: Generate Changelog for this release
         id: changelog
