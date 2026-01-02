@@ -2,6 +2,18 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v1.0.0](https://github.com/netimg/test2/compare/311e912fa6dfc3f4f4f42bea1f1c685670f0eeb7..v1.0.0) - 2026-01-02
+#### Bug Fixes
+- bump to stable release 1.0.0 attempt 10 - ([cf8f5d4](https://github.com/netimg/test2/commit/cf8f5d4be1067463f085a6c52bbe32e99a4b3dee)) - albert-a
+- bump to stable release 1.0.0 attempt 9 - ([0cca010](https://github.com/netimg/test2/commit/0cca0105dc2013050981237e379fc925efbf0c4f)) - albert-a
+- bump to stable release 1.0.0 attempt 8 - ([8fc60a6](https://github.com/netimg/test2/commit/8fc60a6dd33bdaaf5ff096443d230f855f2c2c05)) - albert-a
+- bump to stable release 1.0.0 attempt 7 - ([57af72f](https://github.com/netimg/test2/commit/57af72f10c3e45a451bb1df1e38f101d1dc33b12)) - albert-a
+- bump to stable release 1.0.0 attempt 6 - ([0a7d724](https://github.com/netimg/test2/commit/0a7d7244e887034e9e57e65a659867ad43222170)) - albert-a
+- attempt 5 to bump to stable release 1.0.0 - ([bdee762](https://github.com/netimg/test2/commit/bdee7629495fe892fafd36e45347a618c5e3e23c)) - albert-a
+- attempt 4 to bump to stable release 1.0.0 - ([311e912](https://github.com/netimg/test2/commit/311e912fa6dfc3f4f4f42bea1f1c685670f0eeb7)) - albert-a
+
+- - -
+
 ## [v0.8.2](https://github.com/netimg/test2/compare/3b54242f97a8ce40ce2cdca14be7354515a871d1..v0.8.2) - 2026-01-02
 #### Bug Fixes
 - handling major flag - added git push - ([bba9ea7](https://github.com/netimg/test2/commit/bba9ea768f4c8faab8bd7311447e5a54f54e5d01)) - albert-a
