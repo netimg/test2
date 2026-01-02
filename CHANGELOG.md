@@ -2,6 +2,15 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v0.7.0](https://github.com/netimg/test2/compare/117fda85c15f9f6313584270d4f5c093ccbefe57..v0.7.0) - 2026-01-02
+#### Features
+- add .major file bump flag to bump to 1.0.0 - ([117fda8](https://github.com/netimg/test2/commit/117fda85c15f9f6313584270d4f5c093ccbefe57)) - albert-a
+#### Bug Fixes
+- syntax in handling .major file bump flag - ([9776d41](https://github.com/netimg/test2/commit/9776d4147782adc8bdcbde329d82df5994045118)) - albert-a
+- handling .major file bump flag - ([dd6598c](https://github.com/netimg/test2/commit/dd6598c4da72ad91db43d2c8ec41264418e864d4)) - albert-a
+
+- - -
+
 ## [v0.6.0](https://github.com/netimg/test2/compare/43948545e6f6c91500d29b3f864492b583d966f0..v0.6.0) - 2026-01-02
 #### Features
 - ![BREAKING](https://img.shields.io/badge/BREAKING-red) first stable release - ([4394854](https://github.com/netimg/test2/commit/43948545e6f6c91500d29b3f864492b583d966f0)) - albert-a
