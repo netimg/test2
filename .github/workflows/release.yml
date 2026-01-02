@@ -44,13 +44,11 @@ jobs:
           body: ${{ steps.changelog.outputs.stdout }}
           tag_name: ${{ steps.bump.outputs.version }}
 
-#        if: !contains(steps.bump.outputs.stdout, 'No conventional commits')
-
-#      - name: Update floating major tag
-#        if: "!contains(steps.bump.outputs.stdout, 'No conventional commits')"
-#        run: |
-#          TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
-#          git tag -f "$TAG"
-#          git push -f origin "$TAG"
+      - name: Update floating major tag
+        if: "!contains(steps.bump.outputs.stdout, 'No conventional commits')"
+        run: |
+          TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
+          git tag -f "$TAG"
+          git push -f origin "$TAG"
 
 #        if: contains(steps.bump.outputs.version, '.')
