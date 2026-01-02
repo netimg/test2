@@ -20,10 +20,12 @@ jobs:
       - name: Determine bump type
         id: bump_logic
         run: |
-          type=`git tag -l major`
-          [ $type ] && git push -d origin major || type=auto
+          rm .major 2>/dev/null && git commit -am "chore: forcing major release" && type=major || type=auto
           echo type=$type >> $GITHUB_OUTPUT
 
+#          type=`git tag -l major`
+#          [ $type ] && git push -d origin major || type=auto
+#          echo type=$type >> $GITHUB_OUTPUT
 
 #          { rm .major 2>/dev/null && echo type=major || echo type=auto; } >> $GITHUB_OUTPUT
 
