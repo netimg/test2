@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v2.1.1](https://github.com/netimg/test2/compare/7ca1beb9e37f04befc8eb1404cd1c5e02a162962..v2.1.1) - 2026-01-02
+#### Bug Fixes
+- capitalization in testfile - ([92e51cb](https://github.com/netimg/test2/commit/92e51cb865d9e73e4e0664de15a462ffd1a2c6f4)) - albert-a
+
+- - -
+
 ## [v2.1.0](https://github.com/netimg/test2/compare/a0b45348d569d421ed9cf8301ec737b07231c28a..v2.1.0) - 2026-01-02
 #### Features
 - added yazz to testfile - ([a0b4534](https://github.com/netimg/test2/commit/a0b45348d569d421ed9cf8301ec737b07231c28a)) - albert-a
