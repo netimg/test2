@@ -44,9 +44,9 @@ jobs:
           body: ${{ steps.changelog.outputs.stdout }}
           tag_name: ${{ steps.bump.outputs.version }}
 
-      - name: Update floating major tag
-        if: contains(steps.bump.outputs.version, '.')
-        run: |
-          TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
-          git tag -f "$TAG"
-          git push -f origin "$TAG"
+#      - name: Update floating major tag
+#        if: contains(steps.bump.outputs.version, '.')
+#        run: |
+#          TAG=${{ steps.bump.outputs.version }} TAG=${TAG%%.*}
+#          git tag -f "$TAG"
+#          git push -f origin "$TAG"
