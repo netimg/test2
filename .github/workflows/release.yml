@@ -1,3 +1,5 @@
+name: Create Release
+
 on:
   push:
     branches:
@@ -18,9 +20,13 @@ jobs:
       - name: Semantic Versioning Release
         id: bump
         uses: cocogitto/cocogitto-action@main
-        with:
-          command: bump
-          args: --auto
+        run: cog bump --`[ -f .major ] && rm .major && echo major || echo auto`
+
+#          test -f .major && rm .major && bump=major || bump=auto
+#          cog bump --$bump
+#        with:
+#          command: bump
+#          args: --auto
 
       - name: Generate Changelog for this release
         id: changelog
