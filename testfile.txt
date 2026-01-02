@@ -1,3 +1,5 @@
 test 2
 
 FINALLY STABLE RELEASE
+
+now you can copy this versioning setup to other repos
