@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v2.0.0](https://github.com/netimg/test2/compare/452b422a91fd79328cc90bde21b04780198b2ae4..v2.0.0) - 2026-01-02
+#### Features
+- ![BREAKING](https://img.shields.io/badge/BREAKING-red) disabling floating tags - ([452b422](https://github.com/netimg/test2/commit/452b422a91fd79328cc90bde21b04780198b2ae4)) - albert-a
+
+- - -
+
 ## [v1.1.0](https://github.com/netimg/test2/compare/292f8849cd7f3a288d540f2808c5ce0c8c786739..v1.1.0) - 2026-01-02
 #### Features
 - testfile possabilities desc - ([292f884](https://github.com/netimg/test2/commit/292f8849cd7f3a288d540f2808c5ce0c8c786739)) - albert-a
