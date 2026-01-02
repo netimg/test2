@@ -51,4 +51,3 @@ jobs:
           git tag -f "$TAG"
           git push -f origin "$TAG"
 
-#        if: contains(steps.bump.outputs.version, '.')
