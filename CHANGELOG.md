@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file. See [conven
 ## [v2.3.0](https://github.com/netimg/test2/compare/41196b05d4f2a90651a9e5761b6a421a97ffaa41..v2.3.0) - 2026-01-12
 #### Features
 - compact workflow rebased - ([41196b0](https://github.com/netimg/test2/commit/41196b05d4f2a90651a9e5761b6a421a97ffaa41)) - albert-a
+#### Bug Fixes
+- (**compact-workflow**) dummy 2 - ([cd4f07a](https://github.com/netimg/test2/commit/cd4f07a01548027269b2768bc45f9a1ce40c4e60)) - albert-a
+- (**compact-workflow**) dummy - ([d8d411f](https://github.com/netimg/test2/commit/d8d411fc972e7621252c8d475ffc5f5f90261e01)) - albert-a
+- (**compact-workflow**) token added - ([d39ac4e](https://github.com/netimg/test2/commit/d39ac4e4353d88cf0a03149faf4008c8e28582ef)) - albert-a
+
+- - -
+
+## [v2.3.0](https://github.com/netimg/test2/compare/41196b05d4f2a90651a9e5761b6a421a97ffaa41..v2.3.0) - 2026-01-12
+#### Features
+- compact workflow rebased - ([41196b0](https://github.com/netimg/test2/commit/41196b05d4f2a90651a9e5761b6a421a97ffaa41)) - albert-a
 
 - - -
 
