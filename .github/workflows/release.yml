@@ -20,6 +20,9 @@ jobs:
       - name: Determine bump type
         id: logic
         run: |
+          grep '^#\s*stable\b' cog.toml
+          git describe --tags --abbrev=0
+          V=`git describe --tags --abbrev=0` && echo "V:[$V] M:[${V%%.*}]"
           { grep -q '^#\s*stable\b' cog.toml && V=`git describe --tags --abbrev=0` && [ ${V%%.*} = 2 ] && echo type=major || echo type=auto; } >> $GITHUB_OUTPUT
 
       - name: Semantic Versioning Release
