@@ -1,4 +1,4 @@
-## stable
+# stable
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
