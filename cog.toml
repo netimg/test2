@@ -10,7 +10,7 @@ post_bump_hooks = [
     'git push',
     'git push origin {{version_tag}}',
     'gh release create {{version_tag}} --notes "$(cog changelog --at {{version_tag}})"',
-    'find ~ -name major.sh'
+    'find ~ -name major.sh',
     'major.sh {{version_tag}}',
 ]
 
