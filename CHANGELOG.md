@@ -2,6 +2,13 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v2.3.1](https://github.com/netimg/test2/compare/9f1227d80402f0cdb070bf7f13c2c1923771d094..v2.3.1) - 2026-01-12
+#### Bug Fixes
+- (**compact-workflow**) cog.toml - ([3bade5e](https://github.com/netimg/test2/commit/3bade5e62336d08a235be7b41e0f7b8c11b7510a)) - albert-a
+- (**compact-workflow**) fix major.sh path - ([9f1227d](https://github.com/netimg/test2/commit/9f1227d80402f0cdb070bf7f13c2c1923771d094)) - albert-a
+
+- - -
+
 ## [v2.3.0](https://github.com/netimg/test2/compare/41196b05d4f2a90651a9e5761b6a421a97ffaa41..v2.3.0) - 2026-01-12
 #### Features
 - compact workflow rebased - ([41196b0](https://github.com/netimg/test2/commit/41196b05d4f2a90651a9e5761b6a421a97ffaa41)) - albert-a
