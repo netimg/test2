@@ -1,4 +1,4 @@
-# stable
+## stable
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
@@ -7,8 +7,10 @@ branch_whitelist = [ "main" ]
 # pre_bump_hooks = [ "sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml" ]
 
 post_bump_hooks = [
-    "git push",
-    "git push origin v{{version}}",
+    'git push',
+    'git push origin {{version_tag}}',
+    'gh release create {{version_tag}} --notes "$(cog changelog --at {{version_tag}})"',
+    './major.sh {{version_tag}}',
 ]
 
 [changelog]
