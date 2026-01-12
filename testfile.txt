@@ -3,6 +3,7 @@ test 2
 FINALLY STABLE RELEASE
 
 Now you can copy this versioning setup to other repos
+That's good
 
 YAZZ
 ------------------------------
