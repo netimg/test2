@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v2.3.3](https://github.com/netimg/test2/compare/9adabb57b443c1fa127836bd3e89c01c266a6202..v2.3.3) - 2026-01-12
+#### Bug Fixes
+- (**compact-workflow**) cog.toml fixedfloating tag - ([9adabb5](https://github.com/netimg/test2/commit/9adabb57b443c1fa127836bd3e89c01c266a6202)) - albert-a
+
+- - -
+
 ## [v2.3.2](https://github.com/netimg/test2/compare/98f59505fdc64c946dcca9a371c0795856bc8b35..v2.3.2) - 2026-01-12
 #### Bug Fixes
 - (**compact-workflow**) cog.toml added floating tag command - ([98f5950](https://github.com/netimg/test2/commit/98f59505fdc64c946dcca9a371c0795856bc8b35)) - albert-a
