@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v2.4.0](https://github.com/netimg/test2/compare/f600f3656b16e03b50c94c50c7cd27da2f202754..v2.4.0) - 2026-01-12
+#### Features
+- stable bump test - ([f600f36](https://github.com/netimg/test2/commit/f600f3656b16e03b50c94c50c7cd27da2f202754)) - albert-a
+
+- - -
+
 ## [v2.3.3](https://github.com/netimg/test2/compare/9adabb57b443c1fa127836bd3e89c01c266a6202..v2.3.3) - 2026-01-12
 #### Bug Fixes
 - (**compact-workflow**) cog.toml fixedfloating tag - ([9adabb5](https://github.com/netimg/test2/commit/9adabb57b443c1fa127836bd3e89c01c266a6202)) - albert-a
