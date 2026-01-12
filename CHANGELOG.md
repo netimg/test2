@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v2.3.0](https://github.com/netimg/test2/compare/41196b05d4f2a90651a9e5761b6a421a97ffaa41..v2.3.0) - 2026-01-12
+#### Features
+- compact workflow rebased - ([41196b0](https://github.com/netimg/test2/commit/41196b05d4f2a90651a9e5761b6a421a97ffaa41)) - albert-a
+
+- - -
+
 ## [v2.2.0](https://github.com/netimg/test2/compare/e612f91ecaf0f0ea88428e5557022f35f228a98a..v2.2.0) - 2026-01-12
 #### Features
 - test - ([698a726](https://github.com/netimg/test2/commit/698a7264e6ce508aceec80de602205950a5c8e88)) - albert-a
