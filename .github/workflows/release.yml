@@ -20,7 +20,7 @@ jobs:
       - name: Determine bump type
         id: logic
         run: |
-          { grep -q '^#\s*stable\b' cog.toml && V=`cog -q get-version` && [ ${V%%.*} = 2 ] && echo type=major || echo type=auto; } >> $GITHUB_OUTPUT
+          { egrep -q '^#\s*stable\b' cog.toml && V=`cog -q get-version` && [ ${V%%.*} = 2 ] && echo type=major || echo type=auto; } >> $GITHUB_OUTPUT
 
       - name: Semantic Versioning Release
         uses: cocogitto/cocogitto-action@main
