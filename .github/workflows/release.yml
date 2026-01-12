@@ -24,6 +24,8 @@ jobs:
 
       - name: Semantic Versioning Release
         uses: cocogitto/cocogitto-action@main
+        env:
+          GH_TOKEN: ${{ github.token }}
         with:
           command: bump
           args: --${{ steps.logic.outputs.type }}
