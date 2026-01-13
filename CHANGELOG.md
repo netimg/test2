@@ -3,6 +3,16 @@ All notable changes to this project will be documented in this file. See [conven
 
 - - -
 #### Bug Fixes
+- 6d1936962c02615fb4d2b88e6cdd3f522e0a3069 - (**ci**) pre-release: full_hash template rel - albert-a
+
+- - -
+
+#### Bug Fixes
+- ec59207dbf3b965149de38b20ffebf324aa294b1 - (**ci**) pre-release: full_hash template pre - albert-a
+
+- - -
+
+#### Bug Fixes
 - ec59207dbf3b965149de38b20ffebf324aa294b1 - (**ci**) pre-release: full_hash template pre - albert-a
 
 - - -
