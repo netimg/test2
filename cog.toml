@@ -11,7 +11,7 @@ post_bump_hooks = [
     'V={{version_tag}} PRE=${V//[^-]}',
     'git push',
     'git push origin {{version_tag}}',
-    'echo "VERSION: [$V]"'
+    'echo "VERSION: [$V]"',
     'gh release create {{version_tag}} --notes "$(cog changelog --at {{version_tag}})" -p',
     'V={{version_tag}}; git push -f origin HEAD:refs/tags/${V%%.*}',
 ]
