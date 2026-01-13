@@ -7,7 +7,7 @@ That's good
 
 fix,feat,fix2,feat2
 
-john: fix,feat
+john: fix,feat,fix2
 
 YAZZ
 ------------------------------
