@@ -1,5 +1,5 @@
 ## stable
-## pre = beta.0
+# pre = beta.0
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
@@ -10,8 +10,7 @@ branch_whitelist = [ "main" ]
 post_bump_hooks = [
     'git push',
     'git push origin {{version_tag}}',
-    'P={{version_tag}}- P=${P#*-}; echo "PRE: [${P%-}]"',
-    'gh release create {{version_tag}} --notes "$(cog changelog --at {{version_tag}})"',
+    'V={{version_tag}} P=$V P=${P#*-}; gh release create $V -n "$(cog changelog --at $V)"${P:+ -p}',
     'V={{version_tag}}; git push -f origin HEAD:refs/tags/${V%%.*}',
 ]
 
