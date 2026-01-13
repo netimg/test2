@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v3.1.2-beta.0](https://github.com/netimg/test2/compare/24eba395a3744aaa3415ed722efb8799dab94b7a..v3.1.2-beta.0) - 2026-01-13
+#### Bug Fixes
+- (**ci**) support for pre-release: poet_hooks in toml 2 - ([6b0c5a2](https://github.com/netimg/test2/commit/6b0c5a29d6ebfecf213dd0c33a37e15f7af12bf5)) - albert-a
+- (**ci**) support for pre-release: poet_hooks in toml - ([cdbbcb7](https://github.com/netimg/test2/commit/cdbbcb7f5b3dcb356fe47bd9df72e9ad846f9f5c)) - albert-a
+- (**ci**) support for pre-release: '-p' flag in toml - ([24eba39](https://github.com/netimg/test2/commit/24eba395a3744aaa3415ed722efb8799dab94b7a)) - albert-a
+
+- - -
+
 ## [v3.1.1](https://github.com/netimg/test2/compare/v3.1.1-beta.1..v3.1.1) - 2026-01-13
 #### Bug Fixes
 - (**ci**) support for pre-release: test 4 - ([eaedd72](https://github.com/netimg/test2/commit/eaedd720c5180e9857b6be13f19203291e6f9e22)) - albert-a
