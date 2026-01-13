@@ -5,7 +5,7 @@ FINALLY STABLE RELEASE
 Now you can copy this versioning setup to other repos
 That's good
 
-f
+fix,feat
 
 YAZZ
 ------------------------------
