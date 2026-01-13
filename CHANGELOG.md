@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v3.3.0](https://github.com/netimg/test2/compare/531e643dcf3e8a47bb758c5d029054f99bc6e7ea..v3.3.0) - 2026-01-13
+#### Features
+- (**ci**) support for pre-release: test 8 - ([531e643](https://github.com/netimg/test2/commit/531e643dcf3e8a47bb758c5d029054f99bc6e7ea)) - albert-a
+
+- - -
+
 ## [v3.2.0](https://github.com/netimg/test2/compare/v3.2.0-beta.0..v3.2.0) - 2026-01-13
 #### Features
 - (**ci**) support for pre-release: test 7 - ([de7a2df](https://github.com/netimg/test2/commit/de7a2df6aa0ebc535b05424eeafa5732dd5a4f82)) - albert-a
