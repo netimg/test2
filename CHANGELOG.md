@@ -2,6 +2,24 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v3.5.0](https://github.com/netimg/test2/compare/v3.5.0-beta.1..v3.5.0) - 2026-01-13
+#### Features
+- (**ci**) pre-release: test 12 release - ([76a567f](https://github.com/netimg/test2/commit/76a567f7fd0e739e6a9309dc85f157b3ec789b90)) - albert-a
+
+- - -
+
+## [v3.5.0-beta.1](https://github.com/netimg/test2/compare/v3.5.0-beta.0..v3.5.0-beta.1) - 2026-01-13
+#### Features
+- (**ci**) pre-release: test 11 - ([7bd5d9f](https://github.com/netimg/test2/commit/7bd5d9fa65d2cde34a12bd5f0fec39ad4e78616e)) - albert-a
+
+- - -
+
+## [v3.5.0-beta.0](https://github.com/netimg/test2/compare/190be8f55fd282c72f20015c6430df86e46f70eb..v3.5.0-beta.0) - 2026-01-13
+#### Features
+- (**ci**) pre-release: unified changelog o - ([190be8f](https://github.com/netimg/test2/commit/190be8f55fd282c72f20015c6430df86e46f70eb)) - albert-a
+
+- - -
+
 ## [v3.5.0-beta.1](https://github.com/netimg/test2/compare/v3.5.0-beta.0..v3.5.0-beta.1) - 2026-01-13
 #### Features
 - (**ci**) pre-release: test 11 - ([7bd5d9f](https://github.com/netimg/test2/commit/7bd5d9fa65d2cde34a12bd5f0fec39ad4e78616e)) - albert-a
