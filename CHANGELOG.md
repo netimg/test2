@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file. See [conven
 
 
 - - -
+## [v3.5.3](https://github.com/netimg/test2/compare/v3.5.3-beta.0..v3.5.3) - 2026-01-13
+#### Bug Fixes
+- (**ci**) opana rel - ([8ed34b3](https://github.com/netimg/test2/commit/8ed34b36307d9cdb8c1aee7cecc0a30be8eb0b48)) - albert-a
+
+- - -
+
+## [v3.5.3-beta.0](https://github.com/netimg/test2/compare/6fe152aec76ea23d5ce1c04df4d5ad1c45e9dc6d..v3.5.3-beta.0) - 2026-01-13
+#### Bug Fixes
+- (**ci**) opana 1 - ([737db95](https://github.com/netimg/test2/commit/737db957e62e9407c31733350680be297d150238)) - albert-a
+- (**ci**) trimmed changelog 2 - ([6fe152a](https://github.com/netimg/test2/commit/6fe152aec76ea23d5ce1c04df4d5ad1c45e9dc6d)) - albert-a
+
+- - -
+
 ## [v3.5.3-beta.0](https://github.com/netimg/test2/compare/6fe152aec76ea23d5ce1c04df4d5ad1c45e9dc6d..v3.5.3-beta.0) - 2026-01-13
 #### Bug Fixes
 - (**ci**) opana 1 - ([737db95](https://github.com/netimg/test2/commit/737db957e62e9407c31733350680be297d150238)) - albert-a
