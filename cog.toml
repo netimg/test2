@@ -1,5 +1,5 @@
 ## stable
-# pre = beta.1
+## pre = beta.0
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
