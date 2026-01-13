@@ -2,6 +2,11 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+#### Bug Fixes
+- ec59207dbf3b965149de38b20ffebf324aa294b1 - (**ci**) pre-release: full_hash template pre - albert-a
+
+- - -
+
 ## [v3.5.0](https://github.com/netimg/test2/compare/v3.5.0-beta.1..v3.5.0) - 2026-01-13
 #### Features
 - (**ci**) pre-release: test 12 release - ([76a567f](https://github.com/netimg/test2/commit/76a567f7fd0e739e6a9309dc85f157b3ec789b90)) - albert-a
