@@ -1,5 +1,5 @@
 ## stable
-# pre = beta.0
+# pre = beta.1
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
@@ -8,10 +8,9 @@ branch_whitelist = [ "main" ]
 # pre_bump_hooks = [ "sed -i 's/version = \".*\"/version = \"{{version}}\"/' Cargo.toml" ]
 
 post_bump_hooks = [
-    'V={{version_tag}} PRE=$V- PRE=${PRE#*-}',
     'git push',
     'git push origin {{version_tag}}',
-    'echo "VERSION: [$V]"',
+    'P={{version_tag}}- P=${P#*-}; echo "PRE: [${P%-}]"',
     'gh release create {{version_tag}} --notes "$(cog changelog --at {{version_tag}})" -p',
     'V={{version_tag}}; git push -f origin HEAD:refs/tags/${V%%.*}',
 ]

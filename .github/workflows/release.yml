@@ -17,14 +17,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Determine bump type
+      - name: Determine bump options
         id: logic
         run: |
           grep -q '^#\s*stable\b' cog.toml && V=`git describe --tags --abbrev=0` && [ ${V%%.*} = v0 ] && bump=major || bump=auto
           pre=`sed -nr '/^#\s*pre\s*=\s*(.*?)\s*$/{s//\1/p;q}' cog.toml`
           echo "opts=--$bump${pre:+ --pre $pre}" >> $GITHUB_OUTPUT
 
-      - name: Semantic Versioning Release
+      - name: Semantic versioning release
         uses: cocogitto/cocogitto-action@main
         env:
           GH_TOKEN: ${{ github.token }}
