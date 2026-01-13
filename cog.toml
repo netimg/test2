@@ -10,7 +10,7 @@ branch_whitelist = [ "main" ]
 post_bump_hooks = [
     'git push',
     'git push origin {{version_tag}}',
-    'V={{version_tag}} P=$V P=${P#*-}; gh release create $V -n "$(cog changelog --at $V)"${P:+ -p}',
+    'V={{version_tag}} P=$V- P=${P#*-}; gh release create $V -n "$(cog changelog --at $V)"${P:+ -p}',
     'V={{version_tag}}; git push -f origin HEAD:refs/tags/${V%%.*}',
 ]
 
