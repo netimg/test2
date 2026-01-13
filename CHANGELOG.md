@@ -3,6 +3,20 @@ All notable changes to this project will be documented in this file. See [conven
 
 
 - - -
+## [v3.5.2](https://github.com/netimg/test2/compare/v3.5.2-beta.0..v3.5.2) - 2026-01-13
+#### Bug Fixes
+- (**ci**) yomana rel - ([b4820ca](https://github.com/netimg/test2/commit/b4820ca0f45d6ec438063993ce3b517c901a5885)) - albert-a
+
+- - -
+
+## [v3.5.2-beta.0](https://github.com/netimg/test2/compare/6a99737c863c96715baa4215a7161558ef3b519f..v3.5.2-beta.0) - 2026-01-13
+#### Bug Fixes
+- (**ci**) fix toml - ([3deda50](https://github.com/netimg/test2/commit/3deda50a0d99791cdb952b34a44ee625386bdc7a)) - albert-a
+- (**ci**) trimmed changelog - ([63076d6](https://github.com/netimg/test2/commit/63076d6f88c81ad6edaf8ae9a78ada955299d6ab)) - albert-a
+- (**ci**) yomana 1 - ([6a99737](https://github.com/netimg/test2/commit/6a99737c863c96715baa4215a7161558ef3b519f)) - albert-a
+
+- - -
+
 ## [v3.5.2-beta.0](https://github.com/netimg/test2/compare/6a99737c863c96715baa4215a7161558ef3b519f..v3.5.2-beta.0) - 2026-01-13
 #### Bug Fixes
 - (**ci**) fix toml - ([3deda50](https://github.com/netimg/test2/commit/3deda50a0d99791cdb952b34a44ee625386bdc7a)) - albert-a
