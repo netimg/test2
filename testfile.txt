@@ -5,7 +5,7 @@ FINALLY STABLE RELEASE
 Now you can copy this versioning setup to other repos
 That's good
 
-fix,feat
+fix,feat,fix2
 
 john: fix,feat
 
