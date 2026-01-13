@@ -1,5 +1,5 @@
 ## stable
-## pre = beta.0
+# pre = beta.0
 tag_prefix = "v"
 ignore_merge_commits = true
 branch_whitelist = [ "main" ]
@@ -19,7 +19,7 @@ post_bump_hooks = [
 
 [changelog]
 path = "CHANGELOG.md"
-template = "remote"
+template = "full_hash"
 remote = "github.com"
 owner = "netimg"
 repository = "test2"
