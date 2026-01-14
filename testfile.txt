@@ -5,8 +5,6 @@ FINALLY STABLE RELEASE
 Now you can copy this versioning setup to other repos
 That's good
 
-YO
-
 YAZZ
 ------------------------------
 2026 (c) Albert
