@@ -4,6 +4,41 @@ All notable changes to this project will be documented in this file. See [conven
 
 
 - - -
+## [v3.6.0](https://github.com/netimg/test2/compare/v3.6.0-beta.2..v3.6.0) - 2026-01-14
+#### Bug Fixes
+- funned testfile a littel - ([aea58af](https://github.com/netimg/test2/commit/aea58afa2b9041cf5298477698b7d29ebecfcd6d)) - albert-a
+
+- - -
+
+## [v3.6.0-beta.2](https://github.com/netimg/test2/compare/v3.6.0-beta.1..v3.6.0-beta.2) - 2026-01-14
+#### Bug Fixes
+- clean up testfile - ([d627fcd](https://github.com/netimg/test2/commit/d627fcdcb0349c02b0b40444eecef600710e6d5a)) - albert-a
+
+- - -
+
+## [v3.6.0-beta.1](https://github.com/netimg/test2/compare/v3.6.0-beta.0..v3.6.0-beta.1) - 2026-01-14
+#### Features
+- (**ci**) added beta to ci - ([6bb2061](https://github.com/netimg/test2/commit/6bb206120087c627c12905f46b5534033ea0e6a8)) - albert-a
+- (**ci**) new auto pre alg - ([60fdcbb](https://github.com/netimg/test2/commit/60fdcbb553ee6ffa174e1dd833eea2f7f5a28b03)) - albert-a
+#### Bug Fixes
+- trimmed changelog 3 - ([ef350d7](https://github.com/netimg/test2/commit/ef350d733c816fa77ccb8598255ed5201b7f5d1e)) - albert-a
+
+- - -
+
+## [v3.6.0-beta.0](https://github.com/netimg/test2/compare/1bb850f9ba0dee72937e6ccd2b4071da10e81946..v3.6.0-beta.0) - 2026-01-14
+#### Features
+- (**john**) feat 2 - ([91144b7](https://github.com/netimg/test2/commit/91144b74861fe1323ca1f37be9e2bd2080b37ef7)) - albert-a
+- (**john**) feat 1 - ([c12f97e](https://github.com/netimg/test2/commit/c12f97e6a984e1b3fa5b72d8509c60dc026660db)) - albert-a
+- feat 2 - ([a3bdb6e](https://github.com/netimg/test2/commit/a3bdb6e687e32393ef65e2137f218e278bc89517)) - albert-a
+- feat 1 - ([006e002](https://github.com/netimg/test2/commit/006e0020bcfb223222fb346bcac68f150b9bfc7b)) - albert-a
+#### Bug Fixes
+- (**john**) fix 2 - ([db18670](https://github.com/netimg/test2/commit/db18670e3c17777d0946afe9c83b6f083a1004eb)) - albert-a
+- (**john**) fix 1 - ([97636a9](https://github.com/netimg/test2/commit/97636a91b37a77efb6669a33cfe29a7297ddd12d)) - albert-a
+- fix 2 - ([6645cb2](https://github.com/netimg/test2/commit/6645cb2f50fe80911af6d345f5c43029cdcc9a43)) - albert-a
+- fix 1 - ([1bb850f](https://github.com/netimg/test2/commit/1bb850f9ba0dee72937e6ccd2b4071da10e81946)) - albert-a
+
+- - -
+
 ## [v3.6.0-beta.2](https://github.com/netimg/test2/compare/v3.6.0-beta.1..v3.6.0-beta.2) - 2026-01-14
 #### Bug Fixes
 - clean up testfile - ([d627fcd](https://github.com/netimg/test2/commit/d627fcdcb0349c02b0b40444eecef600710e6d5a)) - albert-a
