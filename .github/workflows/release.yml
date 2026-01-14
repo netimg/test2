@@ -20,8 +20,15 @@ jobs:
       - name: Determine bump options
         id: logic
         run: |
-          grep -q '^#\s*stable\b' cog.toml && V=`git describe --tags --abbrev=0` && [ ${V%%.*} = v0 ] && bump=major || bump=auto
-          pre=`sed -nr '/^#\s*pre\s*=\s*(.*?)\s*$/{s//\1/p;q}' cog.toml`
+          VER=`git describe --tags --abbrev=0 --match 'v*.*.*'`
+          BRANCH=`git branch --show-current`
+          pre=
+          [ ${VER%%.*} = v0 ] && grep -q '^#\s*stable\b' cog.toml && bump=major || bump=auto
+          main=`sed -nr '/^#\s*main\s*=\s*(.*?)\s*$/{s//\1/p;q}' cog.toml`
+          if [ "$BRANCH" != "${main:-main}" ]; then
+            pre=`git describe --tags --abbrev=0 --match "${VER%%-*}-$BRANCH.*"`
+            pre=${pre##*.} pre=$BRANCH.$(( pre + 1 ))
+          fi
           echo "opts=--$bump${pre:+ --pre $pre}" >> $GITHUB_OUTPUT
 
       - name: Semantic versioning release
