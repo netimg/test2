@@ -2,6 +2,30 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v3.8.0](https://github.com/netimg/test2/compare/v3.8.0-beta.3..v3.8.0) - 2026-01-14
+#### Features
+- added opinion about YAZZ - ([de4a085](https://github.com/netimg/test2/commit/de4a0850f5506de941e2f2980b6ef4ad272b16aa)) - albert-a
+
+- - -
+
+## [v3.8.0-beta.3](https://github.com/netimg/test2/compare/v3.8.0-beta.2..v3.8.0-beta.3) - 2026-01-14
+#### Features
+- extended chapter 2 - ([2da5d8d](https://github.com/netimg/test2/commit/2da5d8d6dc459d55fa78c498bea365fac17ab9de)) - albert-a
+
+- - -
+
+## [v3.8.0-beta.2](https://github.com/netimg/test2/compare/v3.8.0-beta.1..v3.8.0-beta.2) - 2026-01-14
+#### Features
+- started chapter 2 - ([bc6f12c](https://github.com/netimg/test2/commit/bc6f12cd5b47dd770e4f32bd4a16daac66afbf04)) - albert-a
+
+- - -
+
+## [v3.8.0-beta.1](https://github.com/netimg/test2/compare/f57053c52c118355cc1b36c7901d06da944ec057..v3.8.0-beta.1) - 2026-01-14
+#### Features
+- added title - ([f57053c](https://github.com/netimg/test2/commit/f57053c52c118355cc1b36c7901d06da944ec057)) - albert-a
+
+- - -
+
 ## [v3.8.0-beta.3](https://github.com/netimg/test2/compare/v3.8.0-beta.2..v3.8.0-beta.3) - 2026-01-14
 #### Features
 - extended chapter 2 - ([2da5d8d](https://github.com/netimg/test2/commit/2da5d8d6dc459d55fa78c498bea365fac17ab9de)) - albert-a
