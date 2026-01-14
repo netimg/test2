@@ -20,6 +20,7 @@ jobs:
 
       - name: Determine bump options
         id: logic
+        shell: bash
         run: |
           VER=`git describe --tags --abbrev=0 --match 'v*.*.*'`
           BRANCH=`git branch --show-current`
@@ -27,10 +28,9 @@ jobs:
           [ ${VER%%.*} = v0 ] && grep -q '^#\s*stable\b' cog.toml && bump=major || bump=auto
           main=`sed -nr '/^#\s*main\s*=\s*(.*?)\s*$/{s//\1/p;q}' cog.toml`
           if [ "$BRANCH" != "${main:-main}" ]; then
-            pre=`git describe --tags --abbrev=0 --match "${VER%%-*}-$BRANCH.*"`
-            pre=${pre##*.} pre=$BRANCH.$(( pre + 1 ))
+            [[ $VER =~ -$BRANCH.[0-9]+$ ]] && pre=$(( ${VER##*.}+1 )) || pre=1
           fi
-          echo "opts=--$bump${pre:+ --pre $pre}" >> $GITHUB_OUTPUT
+          echo "opts=--$bump${pre:+ --pre $BRANCH.$pre}" >> $GITHUB_OUTPUT
 
       - name: Semantic versioning release
         uses: cocogitto/cocogitto-action@main
