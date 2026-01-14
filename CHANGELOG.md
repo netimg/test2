@@ -2,6 +2,19 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [v3.6.1](https://github.com/netimg/test2/compare/v3.6.1-beta.3..v3.6.1) - 2026-01-14
+#### Bug Fixes
+- (**ci**) pre version handling - ([f449478](https://github.com/netimg/test2/commit/f4494787b067ea37e86981ee2363a20c1839c108)) - albert-a
+
+- - -
+
+## [v3.6.1-beta.3](https://github.com/netimg/test2/compare/e624c9e0a930a49eb59fa67ad0876b00e91dab87..v3.6.1-beta.3) - 2026-01-14
+#### Bug Fixes
+- clean up testfile 2 - ([0fe6013](https://github.com/netimg/test2/commit/0fe6013cad5727ba21d2faa1990902b52f53b0a0)) - albert-a
+- trimmed changelog 4 - ([e624c9e](https://github.com/netimg/test2/commit/e624c9e0a930a49eb59fa67ad0876b00e91dab87)) - albert-a
+
+- - -
+
 ## [v3.6.1-beta.4](https://github.com/netimg/test2/compare/v3.6.1-beta.3..v3.6.1-beta.4) - 2026-01-14
 #### Bug Fixes
 - (**ci**) pre version handling - ([f449478](https://github.com/netimg/test2/commit/f4494787b067ea37e86981ee2363a20c1839c108)) - albert-a
